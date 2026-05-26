@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profil Abisha Deryl Narendra</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(to right, #eef2ff, #f8fafc);
+        scroll-behavior: smooth;
+      }
+
+      div[style] {
+        background: rgba(30, 60, 114, 0.9) !important;
+        backdrop-filter: blur(10px);
+      }
+
+      header {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+        padding: 40px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      }
+
+      nav {
+        background: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+      nav a {
+        text-decoration: none;
+        color: #1e3c72;
+        margin: 0 18px;
+        font-weight: bold;
+        position: relative;
+      }
+      nav a::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        background: #667eea;
+        bottom: -5px;
+        left: 0;
+        transition: 0.3s;
+      }
+      nav a:hover::after {
+        width: 100%;
+      }
+
+      section {
+        background: white;
+        margin: 30px auto;
+        padding: 30px;
+        width: 85%;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        transition: 0.4s;
+      }
+      section:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      }
+
+      h2 {
+        color: #1e3c72;
+        border-bottom: 3px solid #667eea;
+        padding-bottom: 5px;
+      }
+
+      .profile {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+      }
+      .profile img {
+        border-radius: 50%;
+        border: 5px solid #667eea;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      }
+
+      .info {
+        background: #eef2ff;
+        border-left: 6px solid #667eea;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        overflow: hidden;
+        border-radius: 10px;
+      }
+      th {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+      }
+      td,
+      th {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .skill {
+        margin: 12px 0;
+        font-weight: bold;
+      }
+      .bar {
+        background: #e5e7eb;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+      .fill {
+        height: 22px;
+        background: linear-gradient(90deg, #667eea, #764ba2);
+        animation: grow 2s ease;
+      }
+      @keyframes grow {
+        from {
+          width: 0;
+        }
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+      }
+      input[type="submit"],
+      input[type="reset"] {
+        width: 140px;
+        background: #667eea;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      input[type="submit"]:hover,
+      input[type="reset"]:hover {
+        background: #764ba2;
+      }
+
+      footer {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 25px;
+      }
+
+      section {
+        animation: fadeIn 0.8s ease;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+
+ 
+    <header>
+      <h1>🌍 ABISHA DERYL NARENDRA</h1>
+      <p>Surveyor | GIS Analyst | Video Editor</p>
+    </header>
+
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#pendidikan">Pendidikan</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section id="tentang">
+      <h2>👤 Profil Singkat</h2>
+      <div class="profile">
+        <img src="fotoku.jpeg" width="180" height="180" />
+        <div>
+          <p>
+            Halo! Saya <b>Abisha Deryl Narendra</b>, mahasiswa
+            <b style="color: #2563eb">Teknologi Survei dan Pemetaan Dasar</b>
+            di <b style="color: #facc15">Universitas Gadjah Mada</b>. Saya memiliki ketertarikan pada bidang survei pemetaan, pengolahan data spasial, dan visualisasi peta digital.
+          </p>
+
+          <div class="info">📌 <b>Fokus:</b> Survei & Pemetaan, GIS, Editing Video <br />🎯 <b>Tujuan:</b> Menjadi surveyor tambang profesional</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pendidikan">
+      <h2>🎓 Riwayat Pendidikan</h2>
+      <table>
+        <tr>
+          <th>No</th>
+          <th>Tingkat</th>
+          <th>Institusi</th>
+          <th>Tahun</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>SMA</td>
+          <td>SMA Negeri 1 Teras Boyolali</td>
+          <td>2021 - 2024</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>D4</td>
+          <td>Universitas Gadjah Mada</td>
+          <td>2024 - Sekarang</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="pengalaman">
+      <h2>💼 Pengalaman</h2>
+      <table>
+        <tr>
+          <th>No</th>
+          <th>Instansi</th>
+          <th>Posisi</th>
+          <th>Periode</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>KMTSP SV UGM</td>
+          <td>Staff Divisi Sosmas</td>
+          <td>Maret 2025 - Desember 2025</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>KMTSP SV UGM</td>
+          <td>Kepala Divisi Adsosmas</td>
+          <td>Desember 2025 - Sekarang</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>ATR/BPN Kabupaten Boyolali</td>
+          <td>Magang Mandiri</td>
+          <td>Jan 2025 - Feb 2025</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="keahlian">
+      <h2>🛠 Keahlian</h2>
+
+      <ul>
+  <li>Video Editing</li>
+  <li>AutoCAD Civil 3D</li>
+  <li>ArcGIS / QGIS</li>
+</ul>
+
+      <h3 style="color: #1e3a8a">🎵 Hobi</h3>
+      <ul>
+        <li>Bermain Musik</li>
+        <li>Mengukur Tanah</li>
+        <li>Membuat Peta</li>
+      </ul>
+    </section>
+
+    <section id="kontak">
+      <h2>📬 Hubungi Saya</h2>
+      <form>
+        Nama:<br />
+        <input type="text" /><br /><br />
+
+        Email:<br />
+        <input type="email" /><br /><br />
+
+        Pesan:<br />
+        <textarea rows="4"></textarea><br /><br />
+
+        <input type="submit" value="Kirim" />
+        <input type="reset" value="Reset" />
+      </form>
+    </section>
+
+    <footer>
+      <p>
+        © 2026 Abisha Deryl Narendra <br />
+        Praktikum SIGWeb
+      </p>
+    </footer>
+  </body>
+</html>
